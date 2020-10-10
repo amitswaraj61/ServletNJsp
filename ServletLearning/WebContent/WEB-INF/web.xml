@@ -8,9 +8,20 @@
 <servlet-class>com.servelets.FirstServlet</servlet-class>
 </servlet>
 
+<servlet>
+<servlet-name>secondServlet</servlet-name>
+<servlet-class>com.servelets.ServletGenric</servlet-class>
+</servlet>
+
 <servlet-mapping>
 <servlet-name>firstServlet</servlet-name>
 <url-pattern>/web</url-pattern>
 </servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>secondServlet</servlet-name>
+<url-pattern>/second</url-pattern>
+</servlet-mapping>
+  
   
 </web-app>
