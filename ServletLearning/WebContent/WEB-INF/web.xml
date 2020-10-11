@@ -8,9 +8,19 @@
 <servlet-class>com.servelets.RegisterServletDemo</servlet-class>
 </servlet>
 
+<servlet>
+<servlet-name>success</servlet-name>
+<servlet-class>com.servelets.SuccessServlet</servlet-class>
+</servlet>
+
 <servlet-mapping>
 <servlet-name>register</servlet-name>
 <url-pattern>/RegisterServletDemo</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>success</servlet-name>
+<url-pattern>/success</url-pattern>
 </servlet-mapping>
 
 
