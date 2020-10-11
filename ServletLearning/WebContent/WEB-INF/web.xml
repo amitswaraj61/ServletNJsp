@@ -29,6 +29,25 @@
 <url-pattern>/success</url-pattern>
 </servlet-mapping>
 
+<servlet>
+<servlet-name>Sum</servlet-name>
+<servlet-class>com.attr.S1</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>Ssum1</servlet-name>
+<servlet-class>com.attr.S2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Sum</servlet-name>
+<url-pattern>/s1</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>Ssum1</servlet-name>
+<url-pattern>/s2</url-pattern>
+</servlet-mapping>
 
 
   
