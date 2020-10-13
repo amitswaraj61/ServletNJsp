@@ -49,7 +49,24 @@
 <url-pattern>/s2</url-pattern>
 </servlet-mapping>
 
-
+<servlet>
+<servlet-name>amit1</servlet-name>
+<servlet-class>com.servelets.Servlet1</servlet-class>
+</servlet>
   
+<servlet-mapping>
+<servlet-name>amit1</servlet-name>
+<url-pattern>/servlet1</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+<servlet-name>amit2</servlet-name>
+<servlet-class>com.servelets.Servlet2</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>amit2</servlet-name>
+<url-pattern>/servlet2</url-pattern>
+</servlet-mapping> 
   
 </web-app>
